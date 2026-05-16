@@ -32,7 +32,6 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0, 0, 0 / 0.2);
-    /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -58,7 +57,7 @@ p {
 }
 
 footer {
-    margin-top: 10x;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 
