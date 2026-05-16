@@ -50,8 +50,7 @@ main img {
     height: auto;
     border: 1px black;
     padding: 1rem;
-    background-color: #403440;
-    color: #333;
+    box-shadow: #333;
 }
 
 p {
