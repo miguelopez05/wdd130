@@ -48,6 +48,10 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px black;
+    padding: 1rem;
+    background-color: #403440;
+    color: #333;
 }
 
 p {
