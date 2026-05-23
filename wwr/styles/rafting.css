@@ -30,7 +30,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-colorr);
+    color: var(--primary-color);
 }
 
 .hero {
@@ -69,6 +69,12 @@ h2 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+h2 {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
 }
 
 nav,
