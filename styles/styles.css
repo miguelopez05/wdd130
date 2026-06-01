@@ -13,25 +13,45 @@
     box-sizing: border-box;
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: auto
+}
+
 body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif
 }
 
 nav {
-    background-color: darkblue;
+    background-color: steelblue;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    color: white;
 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    align-items: start;
+    max-width: 1000px;
+    margin: 20px auto;
 }
 
 main {
     max-width: 840px;
+    background-color: white;
+    padding: 20px;
 }
 
 h1 {
@@ -42,30 +62,29 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: 180px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    float: right;
+    padding: 3px;
     box-shadow: 0 0 30px gray;
 
 }
 
 aside {
-    width: 20rem;
+    background-color: #eee;
     text-align: center;
-    position: relative;
-    top: 50px;
-    left: 200px;
 
+}
+
+aside h2 {
+    display: block;
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
-}
-
-asside h2 {
-    position: absolute;
+    margin-bottom: 10px;
 }
 
 main img {

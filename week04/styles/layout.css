@@ -1,7 +1,7 @@
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 1fr;
+    grid-template-columns: 120px 1fr 3fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
@@ -62,7 +62,6 @@ section {
     background-color: #ddd;
     width: min(800px, 100%);
 }
-
 
 code {
     font-family: 'Courier New', Courier, monospace;
