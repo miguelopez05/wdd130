@@ -13,9 +13,9 @@ td {
     text-align: center;
 }
 
-thead th,
+thead tr,
 tfoot tr {
-    background-color: #000;
+    background-color: #e45959;
     color: #fff;
     font-weight: 700;
 }
