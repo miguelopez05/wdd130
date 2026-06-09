@@ -21,7 +21,7 @@
             <li><a href="contact.html">Contact Us</a></li>
         </nav>
     </header>
-    <main>
+    <div>
         <h1>Splash White Waters Rafting </h1>
         <div class="contacts">
             <p>123 Main River Street</p>
@@ -30,50 +30,59 @@
             <p>info@whitewater.com</p>
         </div>
 
-        <div class="map">
+        <div class="main-content">
+            <div class="map">
 
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.002930829582!2d-59.94045944773591!3d-3.135008861349577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c048737dc2323%3A0x4703c7374f577431!2sPorto%20da%20Ceasa!5e0!3m2!1sen!2sbr!4v1780795893897!5m2!1sen!2sbr"
-              width="400" height="300" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.002930829582!2d-59.94045944773591!3d-3.135008861349577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c048737dc2323%3A0x4703c7374f577431!2sPorto%20da%20Ceasa!5e0!3m2!1sen!2sbr!4v1780795893897!5m2!1sen!2sbr"
+                  width="400" height="300" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        </div>
-
-        <form>
-            <div class="form-item">
-                <label for="name">Name </label>
-                <input type="text" name="name" id="name" placeholder="placeholder">
             </div>
-            <div class="form-item">
-                <label for="email">Email </label>
-                <input type="text" name="email" id="email" placeholder="placeholder">
-            </div>
-            <div class="form-item">
-                <span class="form-radio">Message Purpose</span>
-                <div class="radio-options">
-                    <label>
-                        <input type="radio" name="message_purpose" value="general"> General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="message_purpose" value="reservation"> Reservation
-                    </label>
-                    <label>
-                        <input type="radio" name="message_purpose" value="suggestion"> Website
-                        Suggestion
+
+            <form>
+                <div class="form-item">
+                    <label for="name">Name </label>
+                    <input type="text" name="name" id="name" placeholder="placeholder">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email </label>
+                    <input type="text" name="email" id="email" placeholder="placeholder">
+                </div>
+                <div class="form-item">
+                    <span class="form-radio">Message Purpose</span>
+                    <div class="radio-options">
+                        <label>
+                            <input type="radio" name="message_purpose" value="general"> General
+                            Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="message_purpose" value="reservation">
+                            Reservation
+                        </label>
+                        <label>
+                            <input type="radio" name="message_purpose" value="suggestion"> Website
+                            Suggestion
+                        </label>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="textbox">Message:</label>
+                    <textarea id="textbox" name="textbox" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+                <div class="form-item-check">
+                    <div></div> <label for="sub">
+                        <input type="checkbox" id="sub" name="sub"> Please subscribe me to the
+                        monthly
+                        newsletter
                     </label>
                 </div>
-            </div>
-            <div class="form-item">
-                <label for="textbox">Message:</label>
-                <textarea id="textbox" name="textbox" rows="4" placeholder="Type here"></textarea>
-            </div>
-            <div class="form-item-check">
-                <label for="sub">Please Subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="sub" name="sub">
-            </div>
-
-            <button type="submit">Submit Poll</button>
-        </form>
+                <div class="form-button">
+                    <div></div><button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+        </div>
         <section>
             <h2>We Are Here to Serve You</h2>
             <div class="adventure-grid">
@@ -83,7 +92,7 @@
                 </figure>
 
                 <figure>
-                    <img src="images/patric.jpg" alt="Buena Vista">
+                    <img src="images/patric.jpg" width="250" height="350" alt="Buena Vista">
                     <figcaption>Patrick</figcaption>
                 </figure>
 
@@ -95,23 +104,23 @@
             </div>
         </section>
 
-    </main>
-    <footer>
-        <p>© 2026 Splash White Water Rafting, Miguel Lopez </p>
-        <nav class="socialmedia">
-            <a href="https://Facebook.com">
-                <img src="images/facebook-square.png" alt="Facebook Icon">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin-square.png" alt="Linkedin Icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram-square.png" alt="instagram Icon">
-            </a>
+        </main>
+        <footer>
+            <p>© 2026 Splash White Water Rafting, Miguel Lopez </p>
+            <nav class="socialmedia">
+                <a href="https://Facebook.com">
+                    <img src="images/facebook-square.png" alt="Facebook Icon">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="images/linkedin-square.png" alt="Linkedin Icon">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram-square.png" alt="instagram Icon">
+                </a>
 
-        </nav>
+            </nav>
 
-    </footer>
+        </footer>
 
 </body>
 

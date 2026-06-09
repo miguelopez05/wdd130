@@ -32,6 +32,22 @@ article {
     padding: 8px;
 }
 
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    align-items: start;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -88,7 +104,40 @@ form {
 
 }
 
-.form-item-check {}
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.form-item {
+    align-items: start;
+}
+
+.form-item-check,
+.form-button {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.form-button button {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+}
+
+.form-item-check label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0
+}
 
 button {
     width: 100%;
@@ -100,11 +149,16 @@ h2 {
     text-align: center;
 }
 
+section h2 {
+    background-color: rgba(197, 96, 13, 0.76);
+}
+
 .adventure-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     margin-top: 20px;
+    background-color: rgba(197, 96, 13, 0.76);
 }
 
 .adventure-grid figure {
