@@ -112,10 +112,6 @@ form {
     margin-top: 5px;
 }
 
-.form-item {
-    align-items: start;
-}
-
 .form-item-check,
 .form-button {
     display: grid;
