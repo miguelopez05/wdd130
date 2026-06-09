@@ -15,10 +15,12 @@
     <header class="grid-container">
         <img src="images/splash-logo.png" alt="A logo of Rafting">
         <nav>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="trips.html">Trips</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <div>
@@ -53,15 +55,19 @@
                     <span class="form-radio">Message Purpose</span>
                     <div class="radio-options">
                         <label>
-                            <input type="radio" name="message_purpose" value="general"> General
+                            <input type="radio" id="general" name="message_purpose" value="general">
+                            General
                             Inquiry
                         </label>
                         <label>
-                            <input type="radio" name="message_purpose" value="reservation">
+                            <input type="radio" id="reservation" name="message_purpose"
+                              value="reservation">
                             Reservation
                         </label>
                         <label>
-                            <input type="radio" name="message_purpose" value="suggestion"> Website
+                            <input type="radio" id="suggestion" name="message_purpose"
+                              value="suggestion">
+                            Website
                             Suggestion
                         </label>
                     </div>
@@ -79,7 +85,7 @@
                     </label>
                 </div>
                 <div class="form-button">
-                    <div></div><button type="submit">Get in Touch!</button>
+                    <div></div><button type="Get in Touch">Get in Touch!</button>
                 </div>
             </form>
         </div>
@@ -97,7 +103,7 @@
                 </figure>
 
                 <figure>
-                    <img src="images/Jake.jpg" alt="Cleark Creek">
+                    <img src="images/jake.jpg" alt="Cleark Creek">
                     <figcaption>Jake</figcaption>
                 </figure>
 
